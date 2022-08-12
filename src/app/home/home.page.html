@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      HOME PAGE
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form" color="dark">
+  <ion-grid>
+    <ion-row>
+      <div id="container">
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/login']" expand="block" color="light">LOG IN</ion-button>
+        <span class="divider line one-line">or</span>
+
+        <span class="already">Don't have an account?</span>
+
+        <ion-button [routerLink]="['/registration']" expand="block" color="tertiary">CREATE ACCOUNT</ion-button>
+      </ion-col> </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>

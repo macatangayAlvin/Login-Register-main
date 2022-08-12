@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title href="home">LOG IN</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content color="dark">
+  <div class="flex-center">
+    <div>
+      <ion-card> 
+        <ion-card-content>
+
+          <ion-item color="dark">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email" [(ngModel)]="email"></ion-input>
+          </ion-item>
+
+          <ion-item color="dark">
+              <ion-label position="floating">Password</ion-label>
+              <ion-input type="password" [(ngModel)]="password"></ion-input>
+          </ion-item>
+
+          <ion-button type="submit" expand="block" color="tertiary" (click)="login()"><ion-icon name="log-in-outline"></ion-icon> Login</ion-button>
+          <center color="dark">
+          <a [routerLink]="['/forgot-password']" class="small-text">Forgot Password?</a>
+          </center>
+
+        </ion-card-content>
+      </ion-card> 
+    </div>
+</div>
+</ion-content>
