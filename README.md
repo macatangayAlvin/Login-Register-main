@@ -1,8 +1,8 @@
 # Login-Register-Ionic
 Activity 2 in IT-331 Application Development
 
-![](master/Home.png)
+![](png/Home.png)
 
-![](master/LogIn.png)
+![](png/Registration.png)
 
-![](master/Register.png)
+![](png/LogIn.png)
