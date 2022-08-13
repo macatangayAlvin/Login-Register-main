@@ -1,7 +1,6 @@
 # Login-Register-Ionic
 Activity 2 in IT-331 Application Development
 
-# screenshots
-![]([Login-Registr/blob/master/src/png/Home.png](https://github.com/macatangayAlvin/Login-Registr/blob/9908d56841da4a365c5b6f4a19d3cf2adb1b495b/png/Home.png))
+![Register](https://user-images.githubusercontent.com/108704739/184462126-c79f1011-3b2f-42df-9548-1aa8715bd01f.png)
 
 ![](Login-Registr/blob/master/src/png/LogIn.png)
